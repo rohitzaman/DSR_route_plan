@@ -149,7 +149,7 @@ if status == "day1" :
 
 
             if len(str(t1)) > 0 and str(t1) != "nan":
-                s = "Send "+str(t2)+"taka to the retailer "+str(t1)+" from distance"+str(t3)+"km, which is located at "+str(t4)+","+ str(t5)
+                s = "Send "+str(t2)+" taka to the retailer "+str(t1)+" from distance"+str(t3)+" km, which is located at "+str(t4)+","+ str(t5)
                 st.sidebar.write(s) 
             if str(t1) == "nan":
                 st.sidebar.write("No transaction")
